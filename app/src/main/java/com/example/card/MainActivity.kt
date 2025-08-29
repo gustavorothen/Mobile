@@ -54,7 +54,7 @@ fun BusinessCard(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Card(
-            //modifier = Modifier.fillMaxWidth(),
+            modifier = Modifier.fillMaxWidth(),
         ) {
             Column(
                 horizontalAlignment = Alignment.CenterHorizontally,
